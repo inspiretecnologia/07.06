@@ -5,13 +5,21 @@
     <title>Title</title>
 </head>
 <body>
-<form method="post" action="/forms.html">
+<form method="post" action="CadastroUsuario">
     <label> First name:</label><br>
-    <input type="text" value="nome"><br>
-    <label> Last name:</label><br>
-    <input type="text" value="Sobrenome"><br>
-    <input type="submit" value="Enviar"><br>
-    <input type="reset" value="Limpar"><br>
+    <input type="text" value="nome" size="120" autofocus> <br/>
+    Login: <br />
+    <input type="text" name="Login" size="40"> <br/>
+    Senha: <br />
+    <input type="password" name="senha" size="40"> <br/>
+    Confirme a Senha: <br />
+    <input type="password" name="senhaConfirmada" size="40"> </br>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
 </form>
 </body>
 </html>
